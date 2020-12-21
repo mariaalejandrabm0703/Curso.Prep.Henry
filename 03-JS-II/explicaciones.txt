@@ -1,0 +1,49 @@
+1. Bucle for: nos permite la ejecución repetitiva de código y se ejecuta mientras se cumpla una condición.
+    
+    Por ejemplo:
+    Se necesita mostrar un listado de platillos en un menú de un restaurante. Lo ideal es ejecutar el ciclo
+    para visualizar todos los platillos que el restaurante desee mostrar.
+
+    for (let i = 0; i < platillos.length; i++) {
+        dibujarPlatillos(i);
+    }
+
+2. Operador lógico && 'Y' AND: este operador lógico evalua dos expresiones. Donde el resultado es verdadero
+                                si ambas expresiones son verdaderas.
+    Por ejemplo:
+    let x = 10; 
+
+    if(x<100 && x<200){
+        return 'Es cierto';
+    }else{
+        return 'No es cierto.';
+    }
+
+    El anterior condicional, va a evaluar la x según las dos expresiones x<100 && x<200. 
+    El resultado de ambas es true por ende, el resultar será 'Es cierto'.
+
+3. Operador lógico || 'Ó' OR: este operador lógico evalua dos expresiones. Donde el resultado
+                             es verdadero si alguna expresión es verdadera.
+
+    Por ejemplo:
+    let x = 10; 
+
+    if(x<100 && x>200){
+        return 'Es cierto';
+    }else{
+        return 'No es cierto.';
+    }
+
+    El anterior condicional, va a evaluar la x según las dos expresiones x<100 && x>200. El resultado 
+    de una es true y la siguiente es false, por ende, el resultar será 'Es cierto'.
+
+4. Operador lógico ! 'NOT' NO: este operador lógico evalua una expresión. El resultado invierte la condición
+                             de la expresión.
+    if( !(x<100) ){
+        return 'Es cierto';
+    }else{
+        return 'No es cierto.';
+    }                             
+
+    El anterior condicional, va a evaluar la x según una expresión x<100. El resultado de esta es true y la 
+    negación es false, por ende, el resultar será 'No es cierto'.
