@@ -1,0 +1,40 @@
+1. Variables:
+    Las variables son contenedores, es decir, es una caja con nombre y un valor dentro. 
+    let x = 15;
+    -------
+    |  15 | <- x    Aquí vemos como la variable x tiene el valor de 15.
+    -------
+
+2. Strings: las variables pueden ser de diferentes tipos, es decir, una variables puede tener un valor
+            númerico o un conjunto de caracteres. Este último, son los string, por ejemplo:
+
+            let x = 'Hola'; Aquí vemos como x tiene el valor String de 'Hola'.
+
+
+3. Funciones (argumentos, return): una función es una variables invocable que realiza un proceso
+                                  y puede o no devolver un resultado.
+    let proceso ( nombre ) {
+        return 'Hola '+nombre
+    }
+    -> Aquí vemos como el proceso que es una función, recibe un parámetro nombre y retorna el resultado
+        del saludo junto con ese nombre.
+
+
+4. Declaraciones if: este es un control de flujo del proceso, son condiciones para que en el código se
+                    pueda seleccionar un camino a seguir, ya que permite obtar por variaciones.
+                    if(edad == 18){
+                        return 'Puede votar.';
+                    }else{
+                        return 'No puede votar.';
+                    }
+
+                    Aquí vemos como el condicional me permite evaluar la edad y decidir
+                    si este puede votar o no.
+
+5. Valores booleanos (true, false): así como una variable puede ser númerico o cadena de caracteres,
+                                    también pueden tener el valor de True y False, permitiendo
+                                    combinarlos con los condicionales anteriormente explicador.
+    let x = false;
+    -------
+    |false| <- x    Aquí vemos como la variable x tiene el valor de false.
+    -------                                
