@@ -1,0 +1,4 @@
+Funciones Callback: Los Callbacks en JavaScript son como su propio nombre, en inglés, 
+indica, llamadas de vuelta, quiere decir que cuando invoco una función pasándole como 
+parámetro otra función (el callback) esta función parámetro se ejecuta cuando la función 
+principal ha terminado de ejecutarse. 
