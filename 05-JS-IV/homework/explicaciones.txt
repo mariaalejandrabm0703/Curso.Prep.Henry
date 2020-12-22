@@ -1,0 +1,62 @@
+1. Objetos: así como los arreglos o arrays, los objetos son conetenedores de información. Estos
+            se diferencian porque no tienen un indice para acceder a sus datos. 
+            
+            Por ejemplo ->
+
+            const familia = {
+                papa: 'Juan',
+                mama: 'Andrea',
+                hijo: 'Pedro'
+            }
+
+
+2. Propiedades: son variables dentro del objeto y estas tienen valor.
+    Estructura:
+            const familia = {
+                papa: 'Juan',
+                mama: 'Andrea',
+                hijo: 'Pedro'
+            }
+
+        ** Como observamos, el objeto tiene Propiedades. Para acceder a sus valores se realzia
+        de la siguiente manera:
+        let nombrePapa = familia.papa;
+
+3. Métodos: dentro de estos objetos como podemos tener variables tambien podemos tener
+            funciones o método para ejecutar.
+            
+            const familia = {
+                papa: 'Juan',
+                mama: 'Andrea',
+                hijo: 'Pedro',
+                const viajar: function(){ return 'España'}
+            }
+
+            **Como observamos, dentro del objeto familia tenemos una funcion, esta se puede utilizar
+            de la siguiente manera:
+            let lugarViaje = familia.viajar();
+
+4. Bucle for…in: así como a los arreglos, debemos recorrerlos para obtener su información, los objetos
+                también deben ser accedidos por medio de un Bucle for…in pero con una sintaxis deferente 
+                ya que los objetos no tiene un indice.
+
+                for(let clave in familia){
+                    console.log(familia.[clave]);
+                }
+
+                ** Podemos ver que se imprime lo siguiente:
+                Juan
+                Andrea
+                Pedro
+                viajar()
+
+5. Notación de puntos vs notación de corchetes: para acceder o asignar valor a las Propiedades  
+                se puede realizar de dos maneras:
+                1. puntos:
+                    familia.papa;
+
+                2. Corchetes:
+                    familia['papa'];
+
+
+        Se puede obtener de esas dos maneras los valores de las Propiedades, la más común en por punto.
