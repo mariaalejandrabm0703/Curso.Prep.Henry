@@ -1,0 +1,8 @@
+1. Arrays: son una estructura de almacenamiento de datos, es decir, en forma grafica es una caja con
+espacio para más cajas con valores.
+
+let arreglo = ['M','O','V']
+
+-------------
+| M | O | V |
+-------------
