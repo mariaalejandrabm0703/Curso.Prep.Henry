@@ -45,3 +45,30 @@ img {
   text-align: right;
   padding-right: 15px;
 }
+
+.darEspacio {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fechas {
+  margin-right: 25px;
+}
+
+hr {
+  margin-top: 0;
+  background-color: transparent;
+  border-top: 1px solid #ccc;
+}
+
+.sinMargenBajo {
+  margin-bottom: 0;
+}
+
+.sinMargenArriba {
+  margin-top: 0;
+}
+
+.correrTitulo {
+  margin-left: 20px;
+}
