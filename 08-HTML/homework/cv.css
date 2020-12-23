@@ -1,0 +1,47 @@
+.headerCustom {
+  background-color: rgba(50, 50, 50, 0.1);
+  margin: auto;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.bodyCustom {
+  margin: auto;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.divFlex {
+  display: flex;
+}
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+.textMargin {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+.textMargin2 {
+  margin-top: 65px;
+}
+.spanIcon {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.icon {
+  margin-left: 20px;
+}
+.divCompl {
+  width: 540px;
+}
+
+.divOtro {
+  margin: auto;
+  text-align: right;
+  padding-right: 15px;
+}
